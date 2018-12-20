@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/samuraime/data-visualization-mouzhuang/precache-manifest.2aad1e9652630b000c18b6e52250a464.js"
+  "/data-visualization-mouzhuang/precache-manifest.b0d0105f034e321b5a9d496952673346.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/samuraime/data-visualization-mouzhuang/index.html", {
+workbox.routing.registerNavigationRoute("/data-visualization-mouzhuang/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
