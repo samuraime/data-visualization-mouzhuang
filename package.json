@@ -1,0 +1,45 @@
+{
+  "name": "data-visualization-mouzhuang",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3": "^5.7.0",
+    "moment": "^2.23.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.1",
+    "react-transition-group": "^2.5.1",
+    "rxjs": "^5.5.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "npm run build && gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuraime/data-visualization-mouzhuang.git"
+  },
+  "author": "SamuraiMe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuraime/data-visualization-mouzhuang/issues"
+  },
+  "homepage": "https://samuraime.github.io/data-visualization-mouzhuang/"
+}

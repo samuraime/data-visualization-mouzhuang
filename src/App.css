@@ -1,0 +1,58 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background: #090917;
+}
+
+.panel-chart-transition {
+  transition: stroke-dashoffset .3s ease;
+}
+
+.progress-transition {
+  transition: width .5s ease;
+}
+
+.rank-chart-transition {
+  transition: width .5s ease;
+}
+
+@keyframes circleSpread {
+  from {
+    r: 0;
+  }
+  20% {
+    r: 3;
+  }
+  40% {
+    r: 0.5;
+  }
+  to {
+    r: 200;
+  }
+}
+
+.map-circle-animation {
+  animation: circleSpread 2s ease-in-out forwards;
+}
+
+.table-item-enter {
+  transform: translate(0, 30px);
+}
+
+.table-item-enter.table-item-enter-active {
+  transform: translate(0, 0);
+  transition: transform .5s ease-in;
+}
+
+.table-item-exit {
+  transform: translate(0, 0);
+}
+
+.table-item-exit.table-item-exit-active {
+  transform: translate(0, -30px);
+  transition: transform .5s ease-in;
+}
+
+.table-item-exit.table-item-exit-active.no-transition {
+  display: none;
+}
